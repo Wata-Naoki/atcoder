@@ -1,26 +1,10 @@
 {
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "provenance": [],
-      "authorship_tag": "ABX9TyNqKwLyE77BAbTYJdHiYoUT",
-      "include_colab_link": true
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "language_info": {
-      "name": "python"
-    }
-  },
   "cells": [
     {
       "cell_type": "markdown",
       "metadata": {
-        "id": "view-in-github",
-        "colab_type": "text"
+        "colab_type": "text",
+        "id": "view-in-github"
       },
       "source": [
         "<a href=\"https://colab.research.google.com/github/Wata-Naoki/atcoder/blob/main/ABC121A.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
@@ -38,8 +22,8 @@
       },
       "outputs": [
         {
-          "output_type": "stream",
           "name": "stdout",
+          "output_type": "stream",
           "text": [
             "3 2\n",
             "2 1\n",
@@ -54,5 +38,28 @@
         "print((H-h)*(W-w))"
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "colab": {
+      "authorship_tag": "ABX9TyNqKwLyE77BAbTYJdHiYoUT",
+      "include_colab_link": true,
+      "provenance": []
+    },
+    "kernelspec": {
+      "display_name": "Python 3.9.6 64-bit",
+      "language": "python",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python",
+      "version": "3.9.6"
+    },
+    "vscode": {
+      "interpreter": {
+        "hash": "31f2aee4e71d21fbe5cf8b01ff0e069b9275f58929596ceb00d14d90e3e16cd6"
+      }
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
 }
