@@ -23,3 +23,6 @@ for fir, sec, thi in zip(sq_data[0], sq_data[1], sq_data[2]):
         break
 
 print('invalid' if flag else 'valid')
+
+
+# 入力で縦と横n個のデータが入ってくるので、それをリスト化して、それぞれの要素を比較していく。重複があればinvalid。なければvalidと出力する。
