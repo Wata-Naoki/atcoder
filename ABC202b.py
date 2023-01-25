@@ -7,3 +7,6 @@ ans_val = ''
 for v in a:
     ans_val += dict_rev[v]
 print(ans_val)
+
+
+# dict_revのkeyをforで回す
