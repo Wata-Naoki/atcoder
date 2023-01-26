@@ -1,10 +1,10 @@
 
-x, y = map(int, input().split())
-
-if x == y:
-    print(x)
-else:
-    result = [0, 1, 2]
-    result.remove(x)
-    result.remove(y)
-    print(result[0])
+n = int(input())
+n_list = [int(v) for v in input().split()]
+ans=0
+for val in n_list:
+    if val >10:
+        ans +=val-10
+print(ans)
+    
+        
