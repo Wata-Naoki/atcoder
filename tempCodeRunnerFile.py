@@ -1,17 +1,8 @@
 
-import math
+n, x = map(int, input().split())
 
-p = int(input())
-
-ans = 0
-
-for i in range(10, 0, -1):
-    coin = math.factorial(i)
-
-    while coin <= p:
-        print(coin)
-
-        ans += 1
-        p -= coin
-
-print(ans)
+# リスト受け取る。偶数番目の要素は-1する。
+a_list = list(map(int, input().split()))
+print(a_list[1::2])
+a_list[0::2] = [a - 1 for a in a_list[1::2]]
+print('Yes' if sum(a_list) <= x else 'No')
