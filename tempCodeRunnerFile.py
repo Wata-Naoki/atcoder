@@ -1,9 +1,14 @@
-import math
-x = input()
-int_x = math.floor(float(x))
-if 0 <= int(x[-1]) <= 2:
-    print(str(int_x) + '-')
-elif 3 <= int(x[-1]) <= 6:
-    print(str(int_x))
-elif 7 <= int(x[-1]) <= 9:
-    print(str(int_x) + '+')
+
+n = int(input())
+n_list = []
+
+for i in range(n):
+    s, t = input().split()
+    n_list.append(s+t)
+
+if len(n_list) == len(set(n_list)):
+    print('No')
+else:
+    print('Yes')
+    
+    
