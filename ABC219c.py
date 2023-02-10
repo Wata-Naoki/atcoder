@@ -15,12 +15,14 @@ for _ in range(n):
     for n in name:
         new_order.append(dict[n])
     names.append([new_order, name])
-    # [[[1, 0, 23], 'abx'], [[0, 24, 24], 'bzz'], [[0, 24, 25], 'bzy'], [[2, 1, 1], 'caa']]
 
 
-print(names)
+# [[[1, 0, 23], 'abx'], [[0, 24, 24], 'bzz'], [[0, 24, 25], 'bzy'], [[2, 1, 1], 'caa']]
+# print(names)
 
 names.sort()
-
+# [[[0, 24, 24], 'bzz'], [[0, 24, 25], 'bzy'], [[1, 0, 23], 'abx'], [[2, 1, 1], 'caa']]
+# print(names)
 for name in names:
     print(name[1])
+    # bzz bzy abx caa
