@@ -1,7 +1,5 @@
 h, w = map(int, input().split())
 
-
-h, w = map(int, input().split())
 a = [list(map(int, input().split())) for _ in range(h)]
 
 for r2 in range(h):
