@@ -1,16 +1,12 @@
-h, w = map(int, input().split())
+
+# これだとWA。0.5が0になり偶数の方にまるめられてしまう
+# x=float(input())
+# # xを小数第１位を四捨五入する
+# print(round(x))
 
 
-h, w = map(int, input().split())
-a = [list(map(int, input().split())) for _ in range(h)]
-
-for r2 in range(h):
-    for r1 in range(r2):
-        for c2 in range(w):
-            for c1 in range(c2):
-                if a[r1][c1] + a[r2][c2] > a[r1][c2] + a[r2][c1]:
-
-                    print('No')
-                    exit()
-
-print('Yes')
+# 完全に四捨五入する
+from decimal import Decimal, ROUND_HALF_UP
+n_str = input()
+result = Decimal( n_str ).quantize(Decimal('0'), rounding=ROUND_HALF_UP)
+print(result)
