@@ -1,4 +1,5 @@
 
+
 n, k=map(int, input().split())
 s=input()
 
@@ -13,5 +14,3 @@ for i, v in enumerate(s):
         ans+=v
 
 print(ans)
-
-
