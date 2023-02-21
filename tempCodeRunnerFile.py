@@ -1,17 +1,12 @@
+s=list(input())
+s2=list(input())
+print( s,'1')
+print( s2,'1')
+flag=False
 
-n, k=map(int, input().split())
-s=input()
-
-ans=''
-count=0
-for i, v in enumerate(s):
-    if v=='o':
-        count+=1
-    if count > k:
-        ans+='x'
-    else:
-        ans+=v
-
-print(ans)
-
-
+for v, v2 in zip(s, s2):
+    print(v, v2)
+    if v=='#' and v2=='#':
+        flag=True
+        break
+print('Yes' if flag else 'No')
