@@ -1,7 +1,4 @@
 
-
-
-
 def cal1(t):
     val=t**2+2*t+3
     return val
@@ -18,10 +15,10 @@ def cal4(t):
     val=cal1(cal1(t))
     return val
 
-def main(t):
+def solve(t):
     val =cal1((cal3(t))+cal4(t))
     return val
 
 t=int(input())
-print(main(t))
+print(solve(t))
 
