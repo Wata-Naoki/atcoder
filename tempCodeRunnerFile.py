@@ -1,4 +1,13 @@
-
 import math
-h=int(input())
-print(math.sqrt(h*(12800000+h)))
+x=int(input())
+print(x)
+if x <0:
+    tmp=math.ceil(abs(x/10))
+    x=-tmp
+else:
+    x=x//10
+    print(x)
+
+
+
+print(x)
