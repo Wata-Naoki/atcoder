@@ -1,16 +1,8 @@
-# import itertools
-# n,x=map(int, input().split())
-# nl=[]
-# for i in range(n):
-#     ab=[int(n) for n in input().split()]
-#     nl.append(ab)
-# all = itertools.combinations(nl)
-# print(nl)
 
 def solve():
     n, x=map(int, input().split())
     dp = [[False] * (x +1) for _ in range(n+1)]
-    print(dp)
+   # print(dp)
     dp[0][0] = True
 
     for i in range(n):
@@ -21,8 +13,8 @@ def solve():
                     dp[i+1][j+a] = True
                 if j + b <= x:
                     dp[i+1][j+b]=True 
-    print('-----------')
-    print(dp)
+    # print('-----------')
+   #  print(dp)
     return dp[n][x]
 
 print('Yes' if solve() else 'No')
