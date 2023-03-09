@@ -5,7 +5,7 @@ for i in range(n):
     s=input()
     s=list(s)
     grid.append(s)
-print(grid)
+# print(grid)
 
 def SearchRight(gyou, retu):
     count=0
