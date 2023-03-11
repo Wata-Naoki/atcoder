@@ -1,3 +1,4 @@
+
 k=int(input())
 kl=[int(v) for v in input().split()]
 dic={}
