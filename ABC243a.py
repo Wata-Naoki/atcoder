@@ -10,7 +10,7 @@ while True:
         break
     v-=b
     if v-c <0:
-        print('T', v, c )
+        print('T')
         break
     v-=c
     
