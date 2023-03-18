@@ -1,0 +1,7 @@
+a, b=map(int, input().split())
+more_val=str(max(a, b))
+c=str(a+b)
+# print(more_val)
+# print(c)
+print('Hard' if len(more_val) < len(c) or int(more_val[0]) < int(c[0])  else 'Easy')
+# print(int(more_val[0]) ,  int(c[0]))
