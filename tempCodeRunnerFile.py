@@ -14,3 +14,4 @@ for x, y in zip(rec_x, rec_y):
     if rec_y.count(y)==1:
         ans[1]=str(y)
 print(' '.join(ans))
+

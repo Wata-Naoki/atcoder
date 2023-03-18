@@ -1,3 +1,4 @@
+
 s=input()
 n=len(set(s))
 
@@ -7,3 +8,4 @@ elif n ==3:
     print(6)
 else:
     print(1)
+
