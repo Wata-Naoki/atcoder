@@ -1,8 +1,13 @@
-a, b, k = map(int, input().split())
+h, w = map(int, input().split())
+r, c = map(int, input().split())
 
-tmp_a = a
-count = 0
-while tmp_a < b:
-    tmp_a *= k
-    count += 1
-print(count)
+ans = 0
+if 1 <= r - 1:
+    ans += 1
+if r + 1 <= h:
+    ans += 1
+if 1 <= c - 1:
+    ans += 1
+if c + 1 <= w:
+    ans += 1
+print(ans)
