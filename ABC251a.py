@@ -1,5 +1,4 @@
 s = list(input())
-print(s)
 count = 1
 ans = ""
 while len(ans) < 6:
