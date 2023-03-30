@@ -2,9 +2,7 @@ n, k = map(int, input().split())
 a = [int(x) for x in input().split()]
 b = [int(x) for x in input().split()]
 max_val = max(a)
-print(max_val)
 b.sort()
-print(b)
 flag = False
 for val in b:
     if max_val == a[val - 1]:
