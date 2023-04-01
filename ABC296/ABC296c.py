@@ -8,3 +8,4 @@ for i in range(n):
             flag = True
             break
 print("Yes" if flag else "No")
+# TLEになってしまた
