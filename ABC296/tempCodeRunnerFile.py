@@ -9,5 +9,3 @@ for i in a:
 
 print("Yes" if flag else "No")
 # TLEになってしまた
-# set型にして、重複した数字は計算しないようにする
-# v1 - v2 = x があるかなので、式変形して、v1=x+v2がaのリストにあればおけなんよね
