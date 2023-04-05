@@ -1,7 +1,7 @@
 n, x = map(int, input().split())
 alp = [chr(i).upper() for i in range(97, 123)]
 chars = "".join(alp)
-print(chars)
+# print(chars)
 txt = ""
 for char in chars:
     txt += char * n
