@@ -1,6 +1,10 @@
 a, b, c, d = map(int, input().split())
 
-if b - c > 0:
-    print(b - c)
+
+l_max = max(a, c)
+r_min = min(b, d)
+
+if r_min - l_max > 0:
+    print(r_min-l_max)
 else:
     print(0)
