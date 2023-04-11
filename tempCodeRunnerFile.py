@@ -1,9 +1,6 @@
-s = input()
-s_list = list(s)
-if s_list[0] == s_list[1]:
-    print(-1)
+a, b, c, d = map(int, input().split())
+
+if b - c > 0:
+    print(b - c)
 else:
-    for val in s_list:
-        if s_list.count(val) == 1:
-            print(val)
-            break
+    print(0)
